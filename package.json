@@ -1,0 +1,21 @@
+{
+  "name": "telegram-bot-sitepoint",
+  "version": "1.0.0",
+  "description": "Telegram bot for labelling articles",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Telegram",
+    "Node.js",
+    "Javascript"
+  ],
+  "author": "Michiel Mulders",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.0.0",
+    "node-telegram-bot-api": "^0.30.0"
+  }
+}
